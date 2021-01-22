@@ -25,3 +25,9 @@ h1, h3 {
     font-size: 2em;
     font-family: 'Anton', sans-serif;
 }
+.icon {
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
