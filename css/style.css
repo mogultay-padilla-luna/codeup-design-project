@@ -66,9 +66,3 @@ a {
 hr {
     width: 85%;
 }
-
-@media screen and(min-width: 320px){
-    hr {
-        display: none;
-    }
-}
