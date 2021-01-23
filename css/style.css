@@ -63,8 +63,12 @@ h4 {
 a {
     color: black;
 }
+hr {
+    width: 85%;
+}
 
-
-@media screen and(min-width: 576px){
-
+@media screen and(min-width: 320px){
+    hr {
+        display: none;
+    }
 }
