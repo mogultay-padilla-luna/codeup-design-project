@@ -57,6 +57,7 @@ h4 {
     z-index: 3;
     margin: 1.5em auto;
 }
+
 .nav-links {
     font-family: 'Abel', sans-serif;
 }
@@ -79,10 +80,19 @@ img {
     .featured-1 {
         text-align: right;
     }
+    .sm-nav {
+       display: none;
+    }
 }
 @media screen and (min-width: 576px) {
     .featured {
         font-size: .5em;
-
+    }
+    .xs-nav {
+        display: none;
+    }
+    .custom-link{
+        margin: 3.5em;
+        z-index: 3;
     }
 }
