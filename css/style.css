@@ -122,15 +122,12 @@ img {
         display: none;
     }
     .md-lg-nav {
-        z-index: 3;
-    }
-    .logo-bg {
-        z-index: 1;
+        z-index: 2;
     }
     .logo {
-        z-index: 3;
+        z-index: 2;
     }
     .co-name {
-        z-index: 3;
+        z-index: 2;
     }
 }
