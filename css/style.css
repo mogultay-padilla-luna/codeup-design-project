@@ -83,6 +83,12 @@ img {
     .sm-nav {
        display: none;
     }
+    .last-tweet {
+        display: none;
+    }
+    .selected-work {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 576px) {
     .featured {
@@ -93,6 +99,38 @@ img {
     }
     .custom-link{
         margin: 3.5em;
+        z-index: 3;
+    }
+    .last-tweet {
+        display: none;
+    }
+    .selected-work {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .last-tweet {
+        display: block;
+    }
+    .selected-work {
+        text-align: left;
+    }
+    .sm-nav {
+        display: none;
+    }
+    .xs-nav {
+        display: none;
+    }
+    .md-lg-nav {
+        z-index: 3;
+    }
+    .logo-bg {
+        z-index: 1;
+    }
+    .logo {
+        z-index: 3;
+    }
+    .co-name {
         z-index: 3;
     }
 }
