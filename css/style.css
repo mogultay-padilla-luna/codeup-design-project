@@ -89,6 +89,24 @@ img {
     .selected-work {
         text-align: center;
     }
+    .md-lg-nav {
+        display: none;
+    }
+    .co-name {
+        display: none;
+    }
+    .last-tweet {
+        display: none;
+    }
+    .last {
+        display: none;
+    }
+    .linebreak {
+        display: none;
+    }
+    .large-md-custom {
+        display: none;
+    }
 }
 @media screen and (min-width: 576px) {
     .featured {
@@ -98,7 +116,7 @@ img {
         display: none;
     }
     .custom-link{
-        margin: 3.5em;
+        margin-top: 3.5em;
         z-index: 3;
     }
     .last-tweet {
@@ -106,6 +124,18 @@ img {
     }
     .selected-work {
         text-align: center;
+    }
+    .md-lg-nav {
+        display: none;
+    }
+    .co-name {
+        display: none;
+    }
+    .last {
+        display: none;
+    }
+    .large-md-custom {
+        display: none;
     }
 }
 @media screen and (min-width: 768px) {
@@ -123,11 +153,25 @@ img {
     }
     .md-lg-nav {
         z-index: 2;
+        display: inline-block;
     }
     .logo {
         z-index: 2;
+        margin-left: 20px;
     }
     .co-name {
+        display: inline;
         z-index: 2;
+        text-align: right;
+    }
+    .logo-bg {
+        z-index: 0;
+    }
+    .large-md-custom {
+        display: flex;
+    }
+    .last {
+        display: inline;
+
     }
 }
