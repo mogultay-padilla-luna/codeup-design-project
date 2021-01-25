@@ -75,7 +75,7 @@ img {
 @media screen and (max-width: 575px ) {
     .featured {
         font-size: .7em;
-        text-align: center;
+        /*text-align: center;*/
     }
     .featured-1 {
         text-align: right;
@@ -107,33 +107,44 @@ img {
     .large-md-custom {
         display: none;
     }
+    .xs-hide {
+        display: none;
+    }
 }
 @media screen and (min-width: 576px) {
     .featured {
         font-size: .5em;
     }
+
     .xs-nav {
         display: none;
     }
-    .custom-link{
+
+    .custom-link {
         margin-top: 3.5em;
         z-index: 3;
     }
+
     .last-tweet {
         display: none;
     }
+
     .selected-work {
         text-align: center;
     }
+
     .md-lg-nav {
         display: none;
     }
+
     .co-name {
         display: none;
     }
+
     .last {
         display: none;
     }
+
     .large-md-custom {
         display: none;
     }
@@ -172,6 +183,5 @@ img {
     }
     .last {
         display: inline;
-
     }
 }
