@@ -9,6 +9,18 @@ h1, h3 {
 h4 {
     font-family: 'Abel', sans-serif;
 }
+.color1 {
+    background-color: #E6563B;
+}
+.color2 {
+    background-color: #EB9D3A;
+}
+.color3 {
+    background-color: #7CB06C;
+}
+.color4 {
+    background-color: #00ABA9;
+}
 .circle {
     width: 130px;
     height: 130px;
@@ -184,4 +196,9 @@ img {
     .last {
         display: inline;
     }
+
+}
+
+@media screen and (min-width: 992px){
+
 }
